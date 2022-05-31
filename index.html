@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>React-interview-Questions</title>
+    <script src="index.js"></script>
 </head>
 
 <body>
+Date-30 may 2022
     <ul>
         <h4>Q1.What is React? What are its features</h4>
         <li>A.React was created by Jordane Walke,a software engineer at facebook in the year 2011 and
@@ -19,9 +21,7 @@
             abd it is used for developing interactive view layer of web and mobile application.
         </li>
         <li>featuresof React-Virtual Dom</li>
-        <li>
-            one way data binding
-        </li>
+        <li> one way data binding</li>
         <li>reusablecomponent</li>
         <li>JSX(Javascript syntax Extension)</li>
         <li>Performance</li>
@@ -64,10 +64,44 @@
                 3.	Updating Phase
                 4.	Unmounting Phase
                 Each phase contains some lifecycle methods that are specific to the particular phase
-                </li>
-
-        
+            </li>
+<br><br><br>
+<b>Date-31 may 2022</b>
+            <h4>What is Single Page Application or SPA? Explain the difference between SPA and MPA</h4>
+                <li>In terms of speed and performance SPA no reloading is needed that is equal to high speed and responsive</li>
+                <li>MPA which is having slow speed and performance is affected by reloading</li>
+                <li>According to coding reusablecode for SPA </li>
+                <li>Coding from scratch and no reusablity</li>
+                <li>According to maintainance SPA is having fast and easy maintainance</li>
+                <li>According to MPA maintainanceis required for each page</li>
+                <li>According to SEO SPA is having limited optimization </li>
+                <li>Accordingto user experience SPA is smooth and friendly</li>
+                <li>MPA user experience is bad</li>
+                <li>THere is no loading time required for SPA</li>
+                <li>According to security wise SPA secures only end point but not safer,MPA secures end to end</li>
+            <h4>What is the differencebetween State and props</h4>
+                <li>State Changes can be asynchronous</li>
+                <li>Props can be read only and use to communication between components</li>
+                <li>Props can be accessed by child componentbut state cann't</li>
+                <li>State can be used to change render dynamic changes with in component</li>
+                <li>Props are immutable where as state are not immutable</li>
+                <li>Props are external and controls by wheneverrender the components</li>
+                <li>Stateis internal and controls by react components itself</li>
+            <h4>EXplain props drilling concept and state uplifting</h4>
+                <li>props drilling is basically a situation in the same data is been sent it to alomost every level due to the requirement in the final level</li>
+                <li>when we have to share the same data across multiple child components then define the data into the parent</li>
+                <li>Every component in react has it's own state because of this sometimes data can be reabundant and inconsistant so by lifting of state of the 
+                    parent component as a single source of truth and passed the data of the parent in it's children</li>
+            <h4>What do you know about controlled and uncontrolled components?</h4>
+                <li>In the react component in controlled component data is controll by the react component or parent component also </li>
+                <li>Data is control by the DOM in uncontrolled component</li>
+                <li>controlled component allows validation controll ,where as uncontrolled it doesn't allows validation control</li>
+                <li>In control it has better control over the forms and data</li>
+                <li>In control component limited control on the forms and data</li>
+            <h4>What is React Router</h4>
+                <li>React router is standard library for routing in react it enables the navigation among the views of various componentin react application .
+                    It allow changing the browser URL</li>
+                <li>React router place an imp role to display multiple views within a SPA</li>
         </ul>
 </body>
-
 </html>
